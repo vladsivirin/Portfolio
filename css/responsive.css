@@ -1,0 +1,139 @@
+@media screen and (max-width: 550px) {
+	.logo {
+		top: 30px;
+	}
+
+	.logo img {
+		width: 48px;
+	}
+
+	.name {
+		font-size: 2em;
+	}
+
+	.occupation {
+		font-size: 0.7em;
+	}
+
+	.box1 {
+		height: 90px;
+	}
+
+	.intro {
+		top: 25px;
+	}
+
+	.container2 {
+		flex-direction: column;
+	}
+
+	.title {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.title h2 {
+		text-align: center;
+	}
+
+	.box4,
+	.box5,
+	.box6 {
+		width: 100%;
+	}
+
+	#contact {
+		width: 100%; text-align: center;
+	}
+
+	#social {
+		width: 100%; text-align: center;
+	}
+
+	#social a {
+		top: -15px;
+	}
+}
+
+@media screen and (min-width: 551px) and (max-width: 599px) {
+	.logo {
+		top: 25px;
+	}
+
+	.logo img {
+		width: 48px;
+	}
+
+	.name {
+		font-size: 2.2em;
+	}
+
+	.occupation {
+		font-size: 0.7em;
+	}
+
+	.box1 {
+		height: 90px;
+	}
+
+	.intro {
+		top: 15px;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 731px) {
+	.box1 {
+		height: 100px;
+	}
+
+	.logo {
+		top: 25px;
+	}
+
+	.intro {
+		top: 20px;
+	}
+
+	.logo img {
+		width: 55px;
+	}
+
+	.name {
+		font-size: 2.5em;
+	}
+	.occupation {
+		font-size: 0.8em;
+	}
+}
+
+@media screen and (min-width: 732px) and (max-width: 823px) {
+	.box1 {
+		height: 130px;
+	}
+
+	.logo {
+		top: 30px;
+	}
+
+	.intro {
+		top:  30px;
+	}
+
+	.logo img {
+		width: 60px;
+	}
+
+	.name {
+		font-size: 2.8em;
+	}
+
+	.occupation {
+		font-size: 0.9em;
+	}
+}
+
+@media screen and (min-width: 960px) {
+	main {
+		width: 960px;
+	}
+}
